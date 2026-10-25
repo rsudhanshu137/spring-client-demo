@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: mcp-client-demo
+
+  ai:
+    openai:
+      api-key: ${OPENAI_API_KEY}
+    mcp:
+      client:
+        enabled: true
+        stdio:
+          servers-configuration: 'classpath:mcp-server.json'

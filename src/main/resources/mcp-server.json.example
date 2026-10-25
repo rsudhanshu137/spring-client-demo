@@ -1,0 +1,38 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/Users/<you>/Desktop",
+        "/Users/<you>/Downloads"
+      ]
+    },
+    "zomato-mcp": {
+      "command": "npx",
+      "args": [
+        "mcp-remote",
+        "https://mcp-server.zomato.com/mcp"
+      ]
+    },
+    "zepto": {
+      "command": "npx",
+      "args": [
+        "mcp-remote",
+        "https://mcp.zepto.co.in/mcp"
+      ]
+    },
+    "ai-support-mcp": {
+      "command": "java",
+      "args": [
+        "-jar",
+        "/path/to/ai-support-mcp.jar"
+      ],
+      "env": {
+        "OPENAI_API_KEY": "sk-your-openai-key-here",
+        "WEATHER_API_KEY": "your-weather-api-key-here"
+      }
+    }
+  }
+}
