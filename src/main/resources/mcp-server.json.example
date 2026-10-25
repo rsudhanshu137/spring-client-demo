@@ -30,8 +30,8 @@
         "/path/to/ai-support-mcp.jar"
       ],
       "env": {
-        "OPENAI_API_KEY": "sk-your-openai-key-here",
-        "WEATHER_API_KEY": "your-weather-api-key-here"
+        "OPENAI_API_KEY": "xxxx",
+        "WEATHER_API_KEY": "xxxx"
       }
     }
   }
